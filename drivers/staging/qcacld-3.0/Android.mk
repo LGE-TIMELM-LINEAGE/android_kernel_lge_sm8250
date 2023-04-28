@@ -78,9 +78,9 @@ LOCAL_DEV_NAME := wlan
 LOCAL_MOD_NAME := wlan
 CMN_OFFSET := ..
 LOCAL_SRC_DIR :=
-TARGET_FW_DIR := firmware/wlan/qca_cld
+TARGET_FW_DIR := /vendor/firmware/wlan/qca_cld
 TARGET_CFG_PATH := /vendor/etc/wifi
-TARGET_MAC_BIN_PATH := /mnt/vendor/persist
+TARGET_MAC_BIN_PATH := /mnt/vendor/persist-lg/wifi/
 
 else
 
